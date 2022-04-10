@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "devicesapis"
+version = "0.1.0"
+description = "Using REST api via fast api and SQL Alchemy for RPC implementation"
+authors = ["krishmulls <krishmulls456@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.75.1"
+uvicorn = "^0.17.6"
+Jinja2 = "^3.1.1"
+python-multipart = "^0.0.5"
+SQLAlchemy = "^1.4.35"
+asyncio = "^3.4.3"
+jwt = "^1.3.1"
+passlib = "^1.7.4"
+secrets = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

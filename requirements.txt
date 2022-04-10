@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+starlette
+jinja2
+pydantics
+python-multipart
+sqlalchemy
+json
+request
+asyncio
+time
+jwt
+passlib
+secrets
